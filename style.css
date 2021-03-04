@@ -33,55 +33,55 @@ div img {
 /* grid system -- mobile first! */
 /* flex contatiner */
 
-.row {
+/* .row {
 	display: flex;
 	flex-flow: row wrap;
-}
+} */
 
 /* attribute selector to give some margin between columns and apply styles to flex items */
 
-[class*="col-"] {
+/* [class*="col-"] {
 	margin-left: 4%;
 	flex: 0 0 92%;
-}
+} */
 
 /* Add background colors to see how much space each column is taking */
 
-.col-1 {
+/* .col-1 {
 	background-color: #A3CDD9;
 }
 
 .col-2 {
 	background-color: #FFFCE6;
-}
+} */
 
 /* Tablet Landscape Screen Sizes */
 @media only screen and (min-width: 480px)  {
 	
-  .col-1 {
+/*   .col-1 {
 		flex: 0 0 44%;
-	}
+	} */
   
   
-	.col-2 {
+/* 	.col-2 {
 		flex: 0 0 44%;
 	}
 
-
+ */
 
 }
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
   
   
- 	.col-1 {
+/*  	.col-1 {
 		flex: 0 0 20%;
-	}
+	} */
   
   
   
-	.col-2 {
+/* 	.col-2 {
 		flex: 0 0 44%;
-	}
+	} */
 
 }
