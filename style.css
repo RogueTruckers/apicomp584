@@ -47,41 +47,39 @@ div img {
 
 /* Add background colors to see how much space each column is taking */
 
-/* .col-1 {
+.col-1 {
 	background-color: #A3CDD9;
 }
 
 .col-2 {
 	background-color: #FFFCE6;
-} */
+}
 
 /* Tablet Landscape Screen Sizes */
 @media only screen and (min-width: 480px)  {
 	
-/*   .col-1 {
-		flex: 0 0 44%;
-	} */
-  
-  
-/* 	.col-2 {
+  .col-1,
+  .col-2 {
 		flex: 0 0 44%;
 	}
+  
+  
 
- */
+
 
 }
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
   
   
-/*  	.col-1 {
+ 	.col-1 {
 		flex: 0 0 20%;
-	} */
+	}
   
   
   
-/* 	.col-2 {
+	.col-2 {
 		flex: 0 0 44%;
-	} */
+	}
 
 }
