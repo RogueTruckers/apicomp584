@@ -33,17 +33,17 @@ div img {
 /* grid system -- mobile first! */
 /* flex contatiner */
 
-/* .row {
+.row {
 	display: flex;
 	flex-flow: row wrap;
-} */
+}
 
 /* attribute selector to give some margin between columns and apply styles to flex items */
 
-/* [class*="col-"] {
+[class*="col-"] {
 	margin-left: 4%;
 	flex: 0 0 92%;
-} */
+}
 
 /* Add background colors to see how much space each column is taking */
 
