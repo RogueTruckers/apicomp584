@@ -82,7 +82,7 @@ div img {
   .col-4 {
     flex: 0 0 96%;
   }
-  .col-5 {
-    flex: 
+  .col-6{
+    flex: 0 0 12%;
   }
 }
