@@ -54,9 +54,11 @@ div img {
 .col-2 {
   background-color: #fffce6;
 }
-
 .col-3 {
   background-color: #ff0000;
+}
+.col-4 {
+  background-color: #00ff00;
 }
 
 /* Tablet Landscape Screen Sizes */
@@ -65,17 +67,19 @@ div img {
   .col-2 {
     flex: 0 0 44%;
   }
-  .col-3 {
-    flex: 
-  }
 }
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
   .col-1 {
     flex: 0 0 20%;
   }
-
   .col-2 {
     flex: 0 0 44%;
+  }
+  .col-3 {
+    flex: 0 0 65%;
+  }
+  .col-4 {
+    flex: 0 0 100%;
   }
 }
