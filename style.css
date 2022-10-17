@@ -71,8 +71,11 @@ div img {
   .col-6{
     flex: 0 0 46%;
   }
+  .col-3{
+    flex: 0 0 94%;
+  }
   .col-4{
-    flex: 0 0 98%;
+    flex: 0 0 94%;
   }
 }
 /* Desktop screen Sizes */
