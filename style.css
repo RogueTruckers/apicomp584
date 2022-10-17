@@ -22,7 +22,7 @@ a {
   max-width: 1200px;
   margin: 0 auto;
   float: none;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 div img {
@@ -80,6 +80,9 @@ div img {
     flex: 0 0 65%;
   }
   .col-4 {
-    flex: 0 0 100%;
+    flex: 0 0 96%;
+  }
+  .col-5 {
+    flex: 
   }
 }
