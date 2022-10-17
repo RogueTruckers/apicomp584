@@ -41,51 +41,55 @@ div img {
 /* attribute selector to give some margin between columns and apply styles to flex items */
 
 [class*="col-"] {
-  margin-left: 4%;
+  margin-left: 2%;
   flex: 0 0 92%;
 }
 
 /* Add background colors to see how much space each column is taking */
 
 .col-1 {
-  background-color: #a3cdd9;
+  background-color: #b2f7ab;
 }
 
 .col-2 {
-  background-color: #fffce6;
+  background-color: #f5f991;
 }
 .col-3 {
   background-color: #ff0000;
 }
 .col-4 {
-  background-color: #00ff00;
+  background-color: #b78d6e;
 }
 .col-6 {
-  background-color: #
+  background-color: #bdc0fc
 }
 
 /* Tablet Landscape Screen Sizes */
 @media only screen and (min-width: 480px) {
   .col-1,
-  .col-2 {
-    flex: 0 0 44%;
+  .col-2,
+  .col-6{
+    flex: 0 0 46%;
+  }
+  .col-4{
+    flex: 0 0 98%;
   }
 }
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
   .col-1 {
-    flex: 0 0 20%;
+    flex: 0 0 22%;
   }
   .col-2 {
-    flex: 0 0 44%;
+    flex: 0 0 46%;
   }
   .col-3 {
-    flex: 0 0 65%;
+    flex: 0 0 70%;
   }
   .col-4 {
-    flex: 0 0 96%;
+    flex: 0 0 94%;
   }
   .col-6{
-    flex: 0 0 12%;
+    flex: 0 0 14%;
   }
 }
