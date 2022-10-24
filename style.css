@@ -139,20 +139,7 @@ div img {
     grid-column: 1 / 6;
     grid-row: 6 / 7;
   }
-
-  .col-1 {
-    flex: 0 0 22%;
-  }
-  .col-2 {
-    flex: 0 0 46%;
-  }
-  .col-3 {
-    flex: 0 0 70%;
-  }
-  .col-4 {
-    flex: 0 0 94%;
-  }
-  .col-6 {
+.col-6 {
     flex: 0 0 14%;
   }
 }
