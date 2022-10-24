@@ -80,42 +80,60 @@ div img {
 }
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
+  .intro1 {
+    grid-area: intro1;
+  }
+  .intro2 {
+    grid-area: intro2;
+  }
+  .intro3 {
+    grid-area: intro3;
+  }
+  .intro4 {
+    grid-area: intro4;
+  }
+  .main1 {
+    grid-area: main1;
+  }
+  .main2 {
+    grid-area: main2;
+  }
+  .special1 {
+    grid-area: special1;
+  }
+  .special2 {
+    grid-area: special2;
+  }
+  .ebike {
+    grid-area: ebike;
+  }
+  .use1 {
+    grid-area: use1;
+  }
+  .use2 {
+    grid-area: use2;
+  }
+  .use3 {
+    grid-area: use3;
+  }
+  .people {
+    grid-area: people;
+  }
+
   .grid-contianer {
     display: grid;
-    grid-template-areas: "name1 intro1 intro2 intro3 intro4" 
-                         "name2 main1 main1 main2 main2"
-                         "name3 special1 special2 special2 special2 special2" 
-                         "name4 ebike ebike ebike ebike" 
-                         "name5 use1 use2 use2 use2 use3" 
-                         "people1 people1 people1 people1 people1 people1 ";
+    grid-template-areas:
+      "intro1 intro2 intro3 intro4"
+      "main1 main1 main2 main2"
+      "special1 special2 special2 special2"
+      "ebike ebike ebike ebike"
+      "use1 use2 use2 use2 use3"
+      "people people people people";
+
     gap: 10px;
-    background-color: #2196F3;
+    background-color: #2196f3;
     padding: 10px;
   }
-  
-  #name1    { grid-area: name1 }
-  #name2    { grid-area: name2 }
-  #name3    { grid-area: name3 }
-  #name4    { grid-area: name4 }
-  #name5    { grid-area: name5 }
-  #intro1   { grid-area: intro1 }
-  #intro2   { grid-area: intro2 }
-  #intro3   { grid-area: intro3 }
-  #intro4   { grid-area: intro4 }
-  #main1    { grid-area: main1 }
-  #main2    { grid-area: main2 }
-  #special1 { grid-area: special1 }
-  #special2 { grid-area: special2 }
-  #ebike    { grid-area: ebike }
-  #use1     { grid-area: use1 }
-  #use2     { grid-area: use2 }
-  #use3     { grid-area: use3 }
-  #people1  { grid-area: people1 }
-  #people2  { grid-area: people2 }
-  #people3  { grid-area: people3 }
-  #people4  { grid-area: people4 }
-  #people5  { grid-area: people5 }
-  #people6  { grid-area: people6 }
 
   .col-1 {
     flex: 0 0 22%;
