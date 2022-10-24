@@ -17,7 +17,10 @@ body {
 a {
   color: #2772b0;
 }
+
 .wrapper {
+  display: grid;
+  grid-gap: 10px;
   width: 97%;
   max-width: 1200px;
   margin: 0 auto;
@@ -81,10 +84,12 @@ div img {
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
   .intro1 {
-    grid-area: intro1;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
   }
   .intro2 {
-    grid-area: intro2;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
   }
   .intro3 {
     grid-area: intro3;
@@ -118,21 +123,6 @@ div img {
   }
   .people {
     grid-area: people;
-  }
-
-  .grid-contianer {
-    display: grid;
-    grid-template-areas:
-      "intro1 intro2 intro3 intro4"
-      "main1 main1 main2 main2"
-      "special1 special2 special2 special2"
-      "ebike ebike ebike ebike"
-      "use1 use2 use2 use2 use3"
-      "people people people people";
-
-    gap: 10px;
-    background-color: #2196f3;
-    padding: 10px;
   }
 
   .col-1 {
