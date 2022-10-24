@@ -80,6 +80,12 @@ div img {
 }
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
+  #grid{
+    display: grid;
+    grid-template-areas: "intro bikes"
+                          
+  }
+    
   .col-1 {
     flex: 0 0 22%;
   }
