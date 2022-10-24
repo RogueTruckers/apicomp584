@@ -29,8 +29,15 @@ a {
 }
 
 div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
   max-width: 225px;
+}
+
+h3{
+  text-align: center;
 }
 
 /* grid system -- mobile first! */
@@ -50,19 +57,19 @@ div img {
 
 /* Add background colors to see how much space each column is taking */
 .col-6 {
-  flex: 0 0 14%;
   background-color: #bdc0fc;
 }
 
 /* Tablet Landscape Screen Sizes */
 @media only screen and (min-width: 480px) {
   .col-6 {
-    flex: 0 0 14%;
+    flex: 0 0 48%;
   }
   .intro1 {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     background-color: #b2f7ab;
+    padding: 2px;
   }
   .intro2 {
     grid-column: 2 / 3;
@@ -91,37 +98,37 @@ div img {
   }
   .special1 {
     grid-column: 1 / 2;
-    grid-row: 3 / 4;
+    grid-row: 4 / 5;
     background-color: #ff0000;
   }
   .special2 {
-    grid-column: 2 / 5;
-    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
     background-color: #ff0000;
   }
   .ebike {
-    grid-column: 1 / 5;
-    grid-row: 4 / 5;
+    grid-column: 1 / 3;
+    grid-row: 5 / 6;
     background-color: #b78d6e;
   }
   .use1 {
-    grid-column: 1 / 2;
-    grid-row: 5 / 6;
+    grid-column: 1 / 3;
+    grid-row: 6 / 7;
     background-color: #00ff00;
   }
   .use2 {
-    grid-column: 2 / 4;
-    grid-row: 5 / 6;
+    grid-column: 1 / 3;
+    grid-row: 7 / 8;
     background-color: #00ff00;
   }
   .use3 {
-    grid-column: 4 / 5;
-    grid-row: 5 / 6;
+    grid-column: 1 / 3;
+    grid-row: 8 / 9;
     background-color: #00ff00;
   }
   .people {
-    grid-column: 1 / 6;
-    grid-row: 6 / 7;
+    grid-column: 1 / 2;
+    grid-row: 9 / 10;
   }
 }
 /* Desktop screen Sizes */
