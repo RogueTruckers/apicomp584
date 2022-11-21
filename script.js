@@ -7,4 +7,9 @@ function httpGet(url) {
   xmlHttpReq.send(null);
   return xmlHttpReq.responseText;
 }
-console.log(httpGet(apod_url));
+
+var apod_json = httpGet(apod_url);
+var apod_array = JSON.parse(apod_json);
+console.log(apod_json);
+
+document.getElementById("apod_image").src = apod_array.hdurl;
