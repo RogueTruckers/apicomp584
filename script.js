@@ -1,3 +1,19 @@
+import { tween } from 'popmotion';
+
+const contianer = popmotion.styler(document.querySelector(".wrapper"));
+
+      popmotion
+        .tween({
+          from: {
+            scale: 0.7,
+          },
+          to: {
+            scale: 1,
+          },
+          duration: 1000,
+        })
+        .start(contianer.set);
+
 const apod_url = "https://api.nasa.gov/planetary/apod";
 const myKey = "?api_key=vPFqHmcIegwQ6lnwUGp701XvW4JcJXf5ZfpiogIJ";
 
@@ -10,7 +26,7 @@ function httpGet(url) {
 
 var apod_json = httpGet(apod_url);
 var apod_array = JSON.parse(apod_json);
-console.log(apod_array);
+//console.log(apod_array);
 
 document.getElementById("apod_image").src = apod_array.hdurl;
 document.getElementById("apod_title").innerHTML = apod_array.title;
