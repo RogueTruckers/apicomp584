@@ -44,5 +44,22 @@
       </article>
     </div>
     <script type="text/javascript" src="script.js"></script>
+    <script src="https://unpkg.com/popmotion/dist/popmotion.global.min.js"></script>
+    <script>
+      import { tween } from "popmotion";
+
+      const contianer = popmotion.styler(document.querySelector(".wrapper"));
+      popmotion
+        .tween({
+          from: {
+            scale: 0.7,
+          },
+          to: {
+            scale: 1,
+          },
+          duration: 1000,
+        })
+        .start(contianer.set);
+    </script>
   </body>
 </html>

@@ -1,19 +1,3 @@
-import { tween } from 'popmotion';
-
-const contianer = popmotion.styler(document.querySelector(".wrapper"));
-
-      popmotion
-        .tween({
-          from: {
-            scale: 0.7,
-          },
-          to: {
-            scale: 1,
-          },
-          duration: 1000,
-        })
-        .start(contianer.set);
-
 const apod_url = "https://api.nasa.gov/planetary/apod";
 const myKey = "?api_key=vPFqHmcIegwQ6lnwUGp701XvW4JcJXf5ZfpiogIJ";
 
